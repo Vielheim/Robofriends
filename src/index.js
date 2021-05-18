@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css'; // needs to specify filepath
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'; // installed via npm. Useful classes for HTML tags
-import App from './App'; // if no extension specified, assume is .js file
+import App from './containers/App'; // if no extension specified, assume is .js file
 // import Hello from './Hello'; // from previous lessons
 
 // App is the main parent JS file that contains the children
